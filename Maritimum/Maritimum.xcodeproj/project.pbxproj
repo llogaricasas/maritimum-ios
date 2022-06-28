@@ -17,6 +17,7 @@
 		71A20444286BB2AF00790CF9 /* MaritimumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A20443286BB2AF00790CF9 /* MaritimumTests.swift */; };
 		71A2044E286BB2AF00790CF9 /* MaritimumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2044D286BB2AF00790CF9 /* MaritimumUITests.swift */; };
 		71A20450286BB2AF00790CF9 /* MaritimumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2044F286BB2AF00790CF9 /* MaritimumUITestsLaunchTests.swift */; };
+		71BEF0A7286BC7D500CB31D2 /* locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71BEF0A6286BC7D500CB31D2 /* locations.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		71A20449286BB2AF00790CF9 /* MaritimumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaritimumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A2044D286BB2AF00790CF9 /* MaritimumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaritimumUITests.swift; sourceTree = "<group>"; };
 		71A2044F286BB2AF00790CF9 /* MaritimumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaritimumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71BEF0A6286BC7D500CB31D2 /* locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = locations.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				71A20435286BB2AF00790CF9 /* Assets.xcassets */,
 				71A20437286BB2AF00790CF9 /* LaunchScreen.storyboard */,
 				71A2043A286BB2AF00790CF9 /* Info.plist */,
+				71BEF0A6286BC7D500CB31D2 /* locations.plist */,
 				71A20432286BB2AE00790CF9 /* Maritimum.xcdatamodeld */,
 			);
 			path = Maritimum;
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A20439286BB2AF00790CF9 /* LaunchScreen.storyboard in Resources */,
+				71BEF0A7286BC7D500CB31D2 /* locations.plist in Resources */,
 				71A20436286BB2AF00790CF9 /* Assets.xcassets in Resources */,
 				71A20431286BB2AE00790CF9 /* Main.storyboard in Resources */,
 			);
