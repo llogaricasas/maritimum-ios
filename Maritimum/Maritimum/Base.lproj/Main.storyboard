@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Maritimum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5R-B6-iQG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.21176470589999999" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5vj-69-qhm"/>
+                                </constraints>
+                            </containerView>
+                            <searchBar contentMode="redraw" scopeBarBackgroundImage="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vHk-uq-78T">
+                                <rect key="frame" x="0.0" y="100" width="414" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WW-4f-vD9">
+                                <rect key="frame" x="68" y="44" width="278" height="41"/>
+                                <string key="text">Estado del mar y playas en directo
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.97279463659999998" green="0.96888783089999997" blue="0.97670144240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="y5R-B6-iQG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hbh-bp-nkv"/>
+                            <constraint firstItem="vHk-uq-78T" firstAttribute="top" secondItem="y5R-B6-iQG" secondAttribute="bottom" id="Jiz-wc-PSI"/>
+                            <constraint firstItem="vHk-uq-78T" firstAttribute="top" secondItem="8WW-4f-vD9" secondAttribute="bottom" constant="15" id="O4t-dW-FcX"/>
+                            <constraint firstItem="y5R-B6-iQG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PBm-nn-KNg"/>
+                            <constraint firstItem="vHk-uq-78T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="S8J-vZ-FMF"/>
+                            <constraint firstItem="8WW-4f-vD9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wgu-7J-rqK"/>
+                            <constraint firstItem="8WW-4f-vD9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="h5b-0w-hIx"/>
+                            <constraint firstItem="vHk-uq-78T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iFB-cr-eb8"/>
+                            <constraint firstItem="y5R-B6-iQG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jYB-PT-hK6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-1039" y="15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
